@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Iphon 14 pro</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <button class="menu-btn" 
+          type="button">
+        <span class="btn-line"></span>
+        <span class="btn-line"></span>
+        <span class="btn-line"></span>
+        <span class="btn-line"></span>
+        </button>
+          <ul class="menu">
+            <li class="menu-item">
+              <a class="menu-link" href="/news.html">Что нового</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="/color.html">Цвет</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="/contacts.html">Заказать</a>
+            </li>
+          </ul>
+          <a class="logo">
+            <img class="logo-img" src="images/logo.svg" alt="Логотип сайта" />
+          </a>
+          <a class="phone" href="tel:79663116060">+7 966-311-60-60</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="headline">
+        <div class="container">
+          <h1 class="titl">IPHONE 14 PRO</h1>
+          <img
+            class="headline-img"
+            src="images/iphone.png"
+            alt="IPHONE 14 PRO"
+          />
+          <a class="headline-btn" href="#">ВЫБРАТЬ</a>
+        </div>
+      </section>
+      <section class="new">
+        <div class="container">
+          <h2 class="new-titl">ЧТО НОВОГО</h2>
+          <div class="new-info">
+            <div class="new-text">
+              <p>
+                Все модели оснащены однокристальной системой A16 Bionic,
+                48-мегапиксельной основной камерой и экранами ProMotion с
+                защитой Ceramic Shield и частотным диапазоном 1 — 120 Гц, а
+                также ускоренной памятью LPDDR5. Дизайн линейки обновлен, на
+                фронтальной панели смартфонов два выреза.
+              </p>
+              <p>
+                Все iPhone 14 в США будут продаваться без лотка для SIM-карт:
+                производитель заявляет, что улучшенная технология eSIM позволит
+                перенести старые электронные сим-карты на новые смартфоны.
+              </p>
+              <p>
+                Обноены фрвлонтальная камера (она снабжена автофокусом и быстрее
+                распознает пользователя в условиях недостаточной освещенности) и
+                сенсор основной камеры.
+              </p>
+              <b>
+                iPhone 14 Pro вышел в новом дизайне — без фирменной «челки».
+                Также в ассортименте появился новый цвет. В смартфоне, в отличие
+                от «обычных» 14-х айфонов, установлен процессор A16 Bionic,
+                который может за секунду производить 4 трлн операций с фото.
+              </b>
+            </div>
+            <img class="images-new" src="images/iPhone-news.jpg" alt="iPhone" />
+          </div>
+        </div>
+      </section>
+      <section class="color">
+        <div class="container">
+          <h2 class="color-titl">ВЫБЕРИ СВОЙ ЦВЕТ</h2>
+      <!-- ul.colo-list>li.color-item*4>img[src=images/color$.jpg]+h3{Silver}+p{Серебристый} -->
+      <ul class="color-list">
+            <li class="color-item">
+              <img src="images/color1.jpg" alt="Silver" />
+              <h3>Silver</h3>
+              <p>Серебристый</p>
+            </li>
+            <li class="color-item">
+              <img src="images/color2.jpg" alt="Deep purple" />
+              <h3>Deep purple</h3>
+              <p>Темно фиолетовый</p>
+            </li>
+            <li class="color-item">
+              <img src="images/color3.jpg" alt="Gold" />
+              <h3>Gold</h3>
+              <p>Золотой</p>
+            </li>
+            <li class="color-item">
+              <img src="images/color4.jpg" alt="Space Black" />
+              <h3>Space Black</h3>
+              <p>Космический черный</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <div class="contact-inner">
+            <form class="contact-form" action="#">
+              <h2 class="contact-titl">ХОЧЕШЬ IPHONE 14 PRO?</h2>
+              <input class="contact-input" type="text" placeholder="Ваше имя" />
+              <input
+                class="contact-input"
+                type="text"
+                placeholder="Номер телефона"
+              />
+              <p>В ближайшее время наш менеджер свяжется с Вами</p>
+              <button type="submit">ЗАКАЗАТЬ</button>
+            </form>
+            <img class="contact-img" src="images/contacts.jpg" alt="phone" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <a class="footer-link" href="#">
+            Политика конфиденциальности
+          </a>
+          <a class="logo">
+            <img class="logo-img" src="images/logo.svg" alt="Логотип сайта" />
+          </a>
+          <a class="phone" href="tel:79663116060">
+            +7 966-311-60-60
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
